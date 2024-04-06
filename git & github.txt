@@ -1,0 +1,9 @@
+              //06.04.24//
+Open terminal
+git init
+git add .
+git commit -m "update"
+for 1st time:
+   git config --global user.email "ur email"
+   git config --global user.name "ur username"
+Do again git commit -m "update"
