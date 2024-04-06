@@ -7,3 +7,10 @@ for 1st time:
    git config --global user.email "ur email"
    git config --global user.name "ur username"
 Do again git commit -m "update"
+
+Goto Github.com create an account and repository.
+Login in vscode local using github,
+when u do push it will open one login prompt,login there and give i agree authorization.
+
+git remote add origin "link"
+git push -u origin master/main
