@@ -24,7 +24,7 @@ Everything in HTML is done by Tags.There are two types of tags are present .They
  <tagname>---> open tag
  </tagname>---> close tag
 
- The whole HTML is in html element.Inside HTML element,you will have head and body elements.
+The whole HTML is in html element.Inside HTML element,you will have head and body elements.
 
 Tag vs Element
 <h1>---> h1 open tag
