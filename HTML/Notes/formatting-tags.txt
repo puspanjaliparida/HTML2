@@ -1,0 +1,7 @@
+                                //10.04.24//
+Formatting tags are used to format the text.
+
+br-->is used break the line
+hr-->is used for horizontal line
+b-->is used to make the text bold
+strong-->

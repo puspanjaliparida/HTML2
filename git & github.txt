@@ -1,4 +1,4 @@
-              //06.04.24//
+                                   //06.04.24//
 Open terminal
 git init
 git add .

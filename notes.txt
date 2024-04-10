@@ -1,4 +1,4 @@
-              //06.04.24//
+                                       //06.04.24//
 Download VS code
 Download and install git,git -v
 Create an account in github
