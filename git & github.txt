@@ -14,3 +14,9 @@ when u do push it will open one login prompt,login there and give i agree author
 
 git remote add origin "link"
 git push -u origin master/main
+
+                           //12.04.24//
+Github: Github is an online platform (website) used to deploy,share and maintain the code.
+
+Main folder should have index.jhtml
+Goto repository=> settings=>pages(left side)=>select branch(right side)=>click save and wait for some time.
