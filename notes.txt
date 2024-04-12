@@ -21,8 +21,8 @@ HTML5-->Advanced-->semantic,dragn drop,canvas,geolocation
 HTML used for the content or structure of the web page. It includes links,tables,data,form,images,media etc...
 
 Everything in HTML is done by Tags.There are two types of tags are present .They are:
- <tagname>---> open tag
- </tagname>---> close tag
+      <tagname>---> open tag
+      </tagname>---> close tag
 
 The whole HTML is in html element.Inside HTML element,you will have head and body elements.
 
