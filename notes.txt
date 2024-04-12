@@ -6,13 +6,13 @@ Create an account in github
 .........................................
 Open --->goto path--->cmd--->code
 
-Extensions----> Material icon theme by pkief
+Extensions----> Material icon theme by "pkief"
 
 HTML==>Hyper Text Markup Language started in 1992 by CERN GML(Generalized ML)==>SGML(Standard GML)=>HTML
 
 The Current version of HTML is HTML5.
 
-HTML3-->p.headings,a,img
+HTML3-->p,headings,a,img
 
 HTML4-->tables,lists,forms,media
 
