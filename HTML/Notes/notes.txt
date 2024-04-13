@@ -1,0 +1,73 @@
+                                       //06.04.24//
+Download VS code
+Download and install git,git -v
+Create an account in github
+
+.........................................
+Open --->goto path--->cmd--->code
+
+Extensions----> Material icon theme by "pkief"
+
+HTML==>Hyper Text Markup Language started in 1992 by CERN GML(Generalized ML)==>SGML(Standard GML)=>HTML
+
+The Current version of HTML is HTML5.
+
+HTML3-->p,headings,a,img
+
+HTML4-->tables,lists,forms,media
+
+HTML5-->Advanced-->semantic,dragn drop,canvas,geolocation
+
+HTML used for the content or structure of the web page. It includes links,tables,data,form,images,media etc...
+
+Everything in HTML is done by Tags.There are two types of tags are present .They are:
+      <tagname>---> open tag
+      </tagname>---> close tag
+
+The whole HTML is in html element.Inside HTML element,you will have head and body elements.
+
+Tag vs Element
+<h1>---> h1 open tag
+    Content
+</h1>---> h1 close tag
+
+An Element contains opentag+content+closetag.
+
+                                //10.04.24//
+Formatting tags are used to format the text.
+----------------------------------------------------
+br-->is used break the line
+hr-->is used for horizontal line
+b-->is used to make the text bold
+strong-->is used to make the text bold
+i-->is used to make the text italic
+em-->is useed to make the text italic
+u-->is used to make the text underlined
+del-->is used to delete the text
+strike-->is used to delete the text
+ins-->to add new text instead of delete
+big-->used to make the text 
+pre-->used to make the sentence as preformatted
+sub-->used for subscript
+sup-->used for superscript
+
+                               //13.04.24//
+Lists:-
+----------------------------------------
+There are three types of lists in HTML.
+(i)Ordered List:-Lists where order is important is called Ordered list.
+       Types:-1,a,A,i,I
+(ii)Unordered list:-Lists where order is not important is called Unordered list.
+(iii)Description List:-A description list is a list of terms, with a description of each term.
+                    :-The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term.
+
+Tags vs elements
+---------------------------------------
+br,hr,img,input,etc,....are the self closing tag or void or empty elements.
+
+Block vs Inline elements:-
+----------------------------------------
+(i)Block elements:-are usually won't allow any other element next to it.Block element contain height and width.
+General block element is 'div'.
+(ii)Inline elements:-usually allows other elements beside them as per flow of document.Inline element doesnot contain height and width.
+General inline element is 'span'.
