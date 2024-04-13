@@ -1,7 +1,17 @@
                                 //10.04.24//
 Formatting tags are used to format the text.
-
+----------------------------------------------------
 br-->is used break the line
 hr-->is used for horizontal line
 b-->is used to make the text bold
-strong-->
+strong-->is used to make the text bold
+i-->is used to make the text italic
+em-->is useed to make the text italic
+u-->is used to make the text underlined
+del-->is used to delete the text
+strike-->is used to delete the text
+ins-->to add new text instead of delete
+big-->used to make the text 
+pre-->used to make the sentence as preformatted
+sub-->used for subscript
+sup-->used for superscript
