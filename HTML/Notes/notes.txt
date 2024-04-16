@@ -62,11 +62,11 @@ There are three types of lists in HTML.
                     :-The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term.
 
 Tags vs elements
----------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 br,hr,img,input,etc,....are the self closing tag or void or empty elements.
 
 Block vs Inline elements:-
---------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 (i)Block elements:-are usually won't allow any other element next to it.Block element contain height and width.
 General block element is 'div'.
 (ii)Inline elements:-usually allows other elements beside them as per flow of document.Inline element doesnot contain height and width.
@@ -74,6 +74,8 @@ General inline element is 'span'.
      
                                //16.04.24//
 Semantic Elements:-
---------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 Semantic tags are soley used for SEO and readability purposes.
-Semantic elements are header,main,section,article,address,footer
+Semantic elements are header,main,section,article,address,footer.
+To identify the elements, we use id or class attributes to html elements.Class attribute is used when multiple elements need to accessed at once.
+One element may contain multiple classes and multiple elements may contain single class.But id should be different.
