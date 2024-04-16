@@ -53,7 +53,7 @@ sup-->used for superscript
 
                                //13.04.24//
 Lists:-
-----------------------------------------
+----------------------------------------------------------------------------
 There are three types of lists in HTML.
 (i)Ordered List:-Lists where order is important is called Ordered list.
        Types:-1,a,A,i,I
@@ -62,12 +62,18 @@ There are three types of lists in HTML.
                     :-The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term.
 
 Tags vs elements
----------------------------------------
+---------------------------------------------------------------------------
 br,hr,img,input,etc,....are the self closing tag or void or empty elements.
 
 Block vs Inline elements:-
-----------------------------------------
+--------------------------------------------------------------------------------
 (i)Block elements:-are usually won't allow any other element next to it.Block element contain height and width.
 General block element is 'div'.
 (ii)Inline elements:-usually allows other elements beside them as per flow of document.Inline element doesnot contain height and width.
 General inline element is 'span'.
+     
+                               //16.04.24//
+Semantic Elements:-
+--------------------------------------------------------------------------------
+Semantic tags are soley used for SEO and readability purposes.
+Semantic elements are header,main,section,article,address,footer
