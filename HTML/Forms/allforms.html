@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Forms Demo</h1>
+    <form action="main">
+      <div>
+        <label for="uname">Username:</label>
+        <input type="text" name="uname" id="uname" />
+      </div>
+      <br />
+      <div>
+        <label for="em">Email:</label>
+        <input type="email" name="email" id="em" />
+      </div>
+      <br /><br />
+      <input type="password" placeholder="Enter password" /><br /><br />
+      <input type="number" placeholder="Enter age" /><br /><br />
+      <div>
+        <label for="DOB">Date of Birth</label>
+        <input type="date" name="dob" id="DOB" />
+      </div>
+      <br />
+      <input type="datetime-local" name="" id="" /><br /><br />
+      <input type="color" name="" id="" /><br /><br />
+      <input type="url" name="" id="" /><br /><br />
+      <input type="file" name="" id="" /><br /><br />
+      <input type="month" name="" id="" /><br /><br />
+      <input type="week" name="" id="" /><br /><br />
+      <textarea name="" id="" cols="30" rows="10"></textarea><br /><br />
+      <input type="search" name="" id="" /><br />
+      <!-- radio buttons,checkbox,drop downs -->
+      <p>Languages known:</p>
+      <input type="checkbox" name="lang" id="java" />
+      <label for="java">Java</label>
+      <input type="checkbox" name="lang" id="python" />
+      <label for="python">Python</label>
+      <input type="checkbox" name="lang" id="PHP" />
+      <label for="PHP">PHP</label>
+      <p>Select Gender:</p>
+      <input type="radio" name="m" id="" />
+      <label for="">Male</label>
+      <input type="radio" name="m" id="" />
+      <label for="">Female</label><br /><br />
+      <select name="courses" id="course">
+        <optgroup label="IT">
+          <option value="J">JAVA</option>
+          <option value="P">PYTHON</option>
+          <option value="F">FRONT END</option>
+        </optgroup>
+        <optgroup label="EEE">
+          <option value="vlsi">VLSI</option>
+          <option value="stld">STLD</option>
+        </optgroup>
+        <optgroup label="ME">
+          <option value="ucmp">UCMP</option>
+          <option value="dsp">DSP</option>
+        </optgroup>
+      </select>
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
