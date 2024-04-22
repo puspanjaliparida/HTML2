@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20+Charted&family=Montserrat:wght@600&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Sedan:ital@0;1&display=swap');
+h1{
+    text-align: center;
+    text-decoration: wavy;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px rgb(179, 0, 255);
+}
+h2{
+    text-align: center;
+    text-decoration: green;
+    text-decoration-line:underline;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px rgb(255, 0, 106);
+}
+#h2{
+    text-align: left;
+    text-decoration: double;
+    text-decoration-line: underline;
+    text-shadow: 5px 5px 5px rgb(255, 0, 0);
+}
+body{
+    
+    background: radial-gradient(#4f0e2b26, #0bd1c76f );
+}
+p{
+  font-family: "Sedan", serif;
+  font-weight: 500;
+  font-style: unset;
+}
+.table-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .youtube-video {
+    margin-left: 70px; 
+  }
+  
+  .lottie-player {
+    margin-left: 120px; 
+  }
+#rohit{
+    height: 150px;
+    width: 200px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.paragraph-container {
+    display: inline-block;
+    vertical-align: top; 
+    margin-left: 50px; 
+  }
+  .content {
+    display: flex;
+  }
+  #rohit1{
+    height: 160px;
+    width: 520px;
+    display: inline-block;
+    margin-left: 20px;
+}
+  .paragraph-container1 {
+    display: inline-block;
+    vertical-align: top; 
+    margin-left: 50px; 
+  }
+  .content1{
+    display: flex;
+  }
+  
+  #rohit2{
+    height: 180px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.paragraph-container2 {
+  display: inline-block;
+  vertical-align: top; 
+  margin-left: 50px; 
+}
+  .content2{
+    display: flex;
+  }
+

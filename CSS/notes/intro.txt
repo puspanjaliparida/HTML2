@@ -39,11 +39,11 @@ Selectors:-
 
 ((((id>class>tagname))))
 
-colors-
+colors:-
 ------
 (i)by name,
 (ii)by hex code,
-(iii)by rgb(red,green,blue...each from 0 to 200),
+(iii)by rgb(red,green,blue...each from 0 to 255),
 (iv)by rgba(alpha ranges from 0.1 to 1.0),
 (v)by hsl(hue,saturation,lightness --->hue ranges from 0 to 360 degrees,saturation and ,lightness ranges from 0 to 100%)
 (vi)by hsla

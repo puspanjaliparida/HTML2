@@ -1,0 +1,48 @@
+                                            //20.04.24//
+Units:-
+-------------------------------------------------------------------------------------
+Units are used to measure sizes like height,width,font-size etc...
+
+px:- pixels are easiest way to measure.It divides the screen into widthXheight pixels.
+
+em:- emphasized value means value will be taken from parents "font-size"
+
+1em:- means 1 time of parents font size
+
+rem:- Root Emphasized value.It will take value from root.Default font-size is "16px"
+
+vw and vh:- Viewport Width and Viewport Height.
+Height: 50vh; means 50% of visible height,width:50vw; means 50% of visible width.
+
+%- you can always specify height/width by % , it takes x% from parent.
+
+Fonts:-
+---------------------------------------------------------------------------------------
+Font-family : Sometimes browser may not support your font.So we can gave multiple 
+              fonts as a family.
+            =>There are five types of font-families:-
+                         (i)serif-stroke at each end of letter
+                         (ii)sans-serif- no stroke
+                         (iii)monospace-same height and width
+                         (iv)cursive-connected letters
+                         (v)fantasy-modern unique fonts
+ 
+Goto google fonts select a font,click get font--Embedded link --copy @import link and paste at top of css file.Mention font-family in selector.
+
+font-weight:- boldness from 100-900 or bol or bolder options
+
+font-style:- defines italic or oblique
+
+All properties in css contains inherit,initial and unset.
+
+Text Property:-
+-----------------------------------------------------------------------------------------
+Text Properties are used for textual context.
+
+text-align:-
+text-decoration:-
+text-shadow:-
+text-transform:-
+
+Background Properties:-
+-----------------------------------------------------------------------------------------
