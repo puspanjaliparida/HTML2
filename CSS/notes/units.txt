@@ -12,7 +12,7 @@ em:- emphasized value means value will be taken from parents "font-size"
 rem:- Root Emphasized value.It will take value from root.Default font-size is "16px"
 
 vw and vh:- Viewport Width and Viewport Height.
-Height: 50vh; means 50% of visible height,width:50vw; means 50% of visible width.
+Height:- 50vh; means 50% of visible height,width:50vw; means 50% of visible width.
 
 %- you can always specify height/width by % , it takes x% from parent.
 
@@ -46,3 +46,10 @@ text-transform:-
 
 Background Properties:-
 -----------------------------------------------------------------------------------------
+url,
+colors,
+gradients,
+repeat,
+position,
+sizer,
+attachment

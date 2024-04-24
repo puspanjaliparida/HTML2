@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jersey+20+Charted&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:wght@600&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Sedan:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Kanit", sans-serif;
+    background-image: url(https://img.freepik.com/premium-photo/beautiful-daisy-flower_888087-1905.jpg?w=740);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 80px;
+    padding: 0 5%;
+    color: #311822;
+    font-size: 20px;
+}
+header .logo{
+    color: wheat;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 150px; 
+
+}
+header nav .menu li a {
+    position: relative;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 30px;
+    border-radius: 0.3rem;
+}
+header nav .menu li a:hover{
+    color: beige;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+.menu li a:hover {
+    background-color: #555;
+}
+.home{
+    padding: 0 5%;
+    color: white;
+   
+}
+.home h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-left: 270px;
+    margin-top: 60px;
+}
+.home h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+.home h3{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 90px;
+    margin-top: 5px;
+}
+.btn{
+    display: inline-block;
+    background-color: #ff5f6d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-left: 370px;
+    margin-top: 50px;
+}

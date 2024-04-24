@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+/* pseudo elements and pseudo classes */
+/* hover */
+a:link{
+    background-color: red;
+}
+a:active{
+    background-color: black;
+    color: white;
+}
+a:visited{
+    color: yellow;
+}
+input:hover{
+    background-color: blue;
+}
+input:focus{
+    background-color: red;
+}
+/* input:required{
+    background-color: yellow;
+} */
+/* input:read-write{
+    background-color: yellow;
+} */
+input:enabled{
+    background-color: blue;
+}
+.main{
+    height: 300px;
+    width: 100px;
+    border: 2px solid black;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
+}
+/* p:last-child{
+    /* color: red; */
+    /* background-color: red;
+}  */
+div:nth-child(4)
+{
+    background-color: red;
+}

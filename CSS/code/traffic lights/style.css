@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:antiquewhite ;
+}
+.main{
+    background-color: rgb(106, 0, 255);
+    height: 300px;
+    width: 120px;
+}
+.light{
+    background-color: aliceblue;
+    height: 75px;
+    width: 75px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* more selectors*/
+/*pseudo elements - starts with : */
+/* .light:hover{
+    background-color: red;
+} */
+.light.red:hover{
+    background-color: red;
+}
+.light.green:hover{
+    background-color: green;
+}
+.light.orange:hover{
+    background-color: orange;
+}
