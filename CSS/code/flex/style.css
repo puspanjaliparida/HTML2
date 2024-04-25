@@ -1,0 +1,34 @@
+.main{
+    display: flex;
+    /* flex-direction: column;
+    flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    flex-direction: row;
+    /* width: 200px; */
+    flex-wrap: nowrap;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    align-content: end;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    background-color: red;
+    color: white;
+}
+.one{
+    flex-shrink: 2;
+}
+.third{
+    order: 1;
+}

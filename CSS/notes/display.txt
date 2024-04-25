@@ -13,4 +13,4 @@ Usually there are two types of elements.
 
 4.Display:table--->it arranges given elements as tables.So inside that every element is considered as tr.
 
-5.Display:none--->it removes the next element from DOM.
+5.Display:none--->it removes the next element from DOM.its place is allocated to next element.

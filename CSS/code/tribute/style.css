@@ -1,122 +1,191 @@
-.BCCI{
-    background-color: rgba(0, 0, 255, 0.748);
-    border-radius: 10%;
+body{
+    background-color: bisque;
 }
-.BCCI img{
-    height: 30px;
-    margin-left: 60px;
+.BCCI {
+  background-color: darkblue;
+  border-radius: 10%;
 }
-.BCCI a{
-    text-decoration: none;
-    margin-bottom: 30px;
-    color: white;
+.BCCI img {
+  height: 30px;
+  margin-left: 60px;
+}
+.BCCI a {
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: white;
 }
 .navigation {
-    display: flex;
-    align-items: center; 
-    background-color: blue;
+  display: flex;
+  align-items: center;
+  background-color: blue;
 }
 .navigation a {
-    margin-right: 10px; 
+  margin-right: 10px;
 }
 .IPL img {
-    margin-left: 30px;
-    height: 50px;
-    width: auto;
+  margin-left: 30px;
+  height: 50px;
+  width: auto;
 }
 .header {
-    margin-left: 100px;
-    color: white;
+  margin-left: 100px;
+  color: white;
 }
-.matches{
-    color: white;
-    text-decoration: none;
+.matches {
+  color: white;
+  text-decoration: none;
 }
-.videos{
-    color: white;
-    text-decoration: none;
-    margin-left: 10px;
+.videos {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
 }
-.stats{
-    color: white;
-    text-decoration: none;
-    margin-left: 10px;
+.stats {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
 }
-.pointstable{
-    color: white;
-    text-decoration: none;
-    margin-left: 10px;
+.pointstable {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
 }
-.fantasy{
-    color: white;
-    text-decoration: none;
-    margin-left: 10px;
+.fantasy {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
 }
-.teams{
-    color: white;
-    text-decoration: none;
-    margin-left: 10px;
+.teams {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
 }
-.news{
-    color: white;
-    text-decoration: none;
-    margin-left: 10px;
+.news {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
 }
-.more{
-    color: white;
-    text-decoration: none;
-    margin-left: 10px;
+.more {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
 }
 
 .rohit {
-    position: relative; 
-    background-color: rgba(0, 0, 255, 0.748);
-    display: flex;
+  position: relative;
+  background-color: darkblue;
+  display: flex;
 }
 
 .rohit img {
-    height: 300px;
-    margin-left: 100px;
+  height: 500px;
+  margin-left: 100px;
 }
 
 .rohit h1 {
-    position: absolute; 
-    top: 80%;
-    left: 22%; 
-    transform: translate(-50%, -50%);
-    margin: 0;
-    color: white;
-    text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: white;
+  text-align: center;
 }
-.rohit h2{
-    position: absolute; 
-    top: 89%;
-    left: 22%; 
-    transform: translate(-50%, -50%);
-    margin: 0;
-    color: white;
-    text-align: center;
+.rohit h2 {
+  position: absolute;
+  top: 89%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: white;
+  text-align: center;
 }
-.indian-box h2{
-    border: 2px solid white; 
-    padding: 5px; 
-    margin-top: 10px;
+.indian-box h2 {
+  border: 2px solid white;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.417);
 }
+.player-overview table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 80%;
+    height: 50%; 
+  }
 .player-overview {
-    flex: 1;
-    padding: 20px;
-    margin-left: 200px;
-    margin-top: 80px;
+  flex: 1;
+  padding: 20px;
+  margin-left: 120px;
+  margin-top: 100px;
 }
-.player-overview tr{
-    color: wheat;
+.player-overview tr {
+  color: wheat;
 }
-.about h2{
-    margin-left: 60px;
+.player-overview th {
+  color: white;
 }
-.about p{
-    margin-left: 60px;
-    margin-right: 60px;
-    font-size: 16px;
-    color: rgba(17, 20, 28, .5);
+.about h2 {
+  margin-left: 60px;
 }
+.about p {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-size: 18px;
+  color: rgba(17, 20, 28, 0.5);
+}
+.BattingFielding {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.BattingFielding h1{
+    color: crimson;
+    text-align: left;
+    text-decoration: double;
+    text-decoration-line:none;
+    text-shadow: 5px 5px 5px white;
+}
+table.batting {
+  width: 100%;
+  border-collapse: collapse;
+}
+table.batting th {
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.633);
+  color: white;
+  border-bottom: 1px solid white;
+}
+table.batting td {
+  text-align: center;
+  padding: 5px;
+  border-bottom: 1px solid black;
+  background-color: rgba(127, 255, 212, 0.249);
+}
+.bowling{
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.bowling h1{
+    color: crimson;
+    text-align: left;
+    text-decoration: double;
+    text-decoration-line:none;
+    text-shadow: 5px 5px 5px white;
+}
+table.bowl{
+    width: 100%;
+    border-collapse: collapse;
+}
+table.bowl th {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.633);
+    color: white;
+    border-bottom: 1px solid white;
+}
+table.bowl td {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    background-color: rgba(127, 255, 212, 0.249);
+  }

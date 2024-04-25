@@ -1,0 +1,7 @@
+                                 //24.04.24//
+Flex:-
+---------------------------------------------------
+Flex is used to set items into a flexible container.
+Flex container always be in one direction.
+Flex makes the elements adjusted inside the container.
+If all elements arranged in x axis then main axis is X axis and cross axis is Y axis.
