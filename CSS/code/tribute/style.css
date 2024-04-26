@@ -6,13 +6,16 @@ body{
   border-radius: 10%;
 }
 .BCCI img {
-  height: 30px;
+  height: 25px;
   margin-left: 60px;
 }
 .BCCI a {
   text-decoration: none;
   margin-bottom: 30px;
   color: white;
+}
+.logo {
+  margin-left: 1000px; 
 }
 .navigation {
   display: flex;
@@ -78,10 +81,9 @@ body{
 }
 
 .rohit img {
-  height: 500px;
-  margin-left: 100px;
+  height: 450px;
+  margin-left: 80px;
 }
-
 .rohit h1 {
   position: absolute;
   top: 80%;
@@ -126,14 +128,16 @@ body{
 .player-overview th {
   color: white;
 }
-.about h2 {
+.about h1 {
   margin-left: 60px;
+  color: brown;
 }
 .about p {
   margin-left: 60px;
   margin-right: 60px;
   font-size: 18px;
-  color: rgba(17, 20, 28, 0.5);
+  color: rgba(17, 20, 28, 0.798);
+  font-family: system-ui;
 }
 .BattingFielding {
   margin-left: 60px;

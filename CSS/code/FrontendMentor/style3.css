@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Lexend Deca";
+}
+
+body {
+    background-color:  hsl(0, 0%, 95%);
+}
+
+main {
+    width: 100%;
+}
+
+h2 {
+    color: hsl(0, 0%, 95%);
+    font-size: 30px;
+    font-weight: 400;
+    font-stretch: ultra-condensed;
+    font-style: "Big Shoulders Display";
+    margin: 25px 0px;
+}
+
+p {
+    color:hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5em;
+}
+
+.button {
+    background-color: hsl(0, 0%, 95%);
+    width: 10rem;
+    height: 2.75rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.container {
+    margin: 10rem auto;
+    max-width: 56.25rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.box {
+    padding: 1.875rem;
+    height: 28.125rem;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.sedans .button a {
+    color: hsl(31, 77%, 52%);
+}
+
+.sedans .button:active {
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+}
+
+.sedans .button a:active {
+    color: hsl(0, 0%, 95%);
+}
+
+
+.SUV {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.SUV .button a {
+    color: hsl(184, 100%, 22%);
+}
+
+.SUV .button:active {
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
+
+.SUV .button a:active {
+    color: hsl(0, 0%, 95%);
+}
+
+.luxury{
+    background: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.luxury .button a {
+    color: hsl(179, 100%, 13%);
+}
+
+.luxury .button:active {
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
+
+.luxury .button a:active {
+    color: hsl(0, 0%, 95%);
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .container {
+          grid-template-columns: 300px;
+          justify-content: center;
+    }
+
+    .sedans {
+          grid-column: 1 /span 1;
+          border-top-right-radius: 10px;
+          border-bottom-left-radius: 0px;
+    }
+
+    .luxury {
+          border-top-right-radius: 0px;
+          border-bottom-left-radius: 10px;
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
