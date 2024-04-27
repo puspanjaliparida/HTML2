@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #F8C8DC; */
+    /* background-image: url(https://4vector.com/i/free-vector-star-background-vector_017287_Stars_backgrounds5.jpg); */
+    background-image: url(http://wallpapercave.com/wp/P3sBn5T.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_text {
+    font-family: 'Nunito';
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

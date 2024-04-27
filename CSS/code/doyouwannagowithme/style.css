@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Jersey+20+Charted&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:wght@600&family=Oswald:wght@200..700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100..900&family=Sedan:ital@0;1&display=swap');
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f0f0; */
+    background-size: 600px;
+    background-image: url(http://clipart-library.com/img/954488.png);
+    background-color: rgb(0, 10, 11);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.gif_container {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.header_text {
+    margin-top: 90px;
+    text-align: center;
+    font-size: 40px;
+    animation: slideIn 1s ease-in-out;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    color: whitesmoke;
+}
+.gif_container img{
+    height: 400px;
+}
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    animation: pulse 1s infinite alternate;
+    text-decoration: none;
+    background-color: aliceblue;
+}
+
+.btn:hover {
+    color: black;
+    background-color: #0dff008d;
+}
+#yesbutton{
+    position: relative;
+    color: black;
+}
+#noButton {
+    position: relative;
+    color: brown;
+}
+#yesbutton:hover {
+    background-color: rgb(2, 250, 56);
+}
+#noButton:hover {
+    background-color: rgb(251, 5, 26);
+    animation: moveButton 0.5s infinite alternate;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+}
+@keyframes moveButton {
+    0% {
+        top: 0;
+        left: 200px;
+        bottom: 80px;
+        right: 90px;
+    }
+    30%{
+        top: 0;
+        left: 200px;
+        bottom: 80px;
+        right: 90px;
+    }
+    50% {
+        top: 0;
+        left: 200px;
+        bottom: 700px;
+        right: 90px;
+    }
+    70%{
+        top: 0;
+        left: 200px;
+        bottom: 80px;
+        right: 90px;
+    }
+    100% {
+        top: 0;
+        left: 200px;
+        bottom: 80px;
+        right: 90px;
+    }
+}

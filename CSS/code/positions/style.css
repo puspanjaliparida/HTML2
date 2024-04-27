@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main{
+    background-color: rgba(240, 248, 255, 0.634);
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+}
+.box2{
+    /* position: static; */
+    position: relative; /* previous position*/
+    top: 20px;
+    left: 20px;
+}
+.box3{
+    position: absolute;
+    top: 20px;
+}
