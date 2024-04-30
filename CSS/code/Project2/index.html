@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoreJava Documentation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Core Java</h1>
+        <ul>
+          <a href="#Introduction To Java"><li>Introduction To Java</li></a>
+          <a href="#Who invented Java and why ?"
+            ><li>Who invented Java and why ?</li></a
+          >
+          <a href="#Types of Applications"><li>Types of Applications</li></a>
+          <a href="#What is Platform,PD,PI ?"
+            ><li>What is Platform,PD,PI ?</li></a
+          >
+          <a href="#Why C and C++ programs are PD ?"
+            ><li>Why C and C++ programs are PD ?</li></a
+          >
+          <a href="#How java achieved PI ?"><li>How java achieved PI?</li></a>
+          <a href="#Downloading and installing JDK Software"
+            ><li>Downloading and installing JDK Software</li></a
+          >
+          <a href="#Essential Statements to develop Java"
+            ><li>Essential Statements to develop Java</li></a
+          >
+          <a href="#First Hello World Program"
+            ><li>First Hello World Program</li></a
+          >
+          <a href="#Develop a program to print your name on console"
+            ><li>Develop a program to print your name on console</li></a
+          >
+          <a href="#Escape Sequence Characters"
+            ><li>Escape Sequence Characters</li></a
+          >
+          <a href="#What is User Defined Method and Pre Defined Method ?"
+            ><li>What is User Defined method and Pre Defined Method ?</li></a
+          >
+          <a href="#What is User Defined Class and Pre Defined Class ?"
+            ><li>What is User Defined Class and Pre Defined Class ?</li></a
+          >
+          <a href="#"></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="Introduction To Java">
+        <h2>Introduction To Java</h2>
+        <article>
+            <ul>
+                <li>
+                    Java is a platform independent multi-paradigm programming language.
+                    Note:-Multi-paradigm means it supports multiple styles of
+                    Programming.
+                </li>
+                <li>
+                 Java Supports:- <li>(i)Object-Oriented Programming [from beginningversion 1.0]</li> 
+                 <li>(ii)Functional Programming [from java 8v]</li>
+                  <li>(iii)Modular Programming [from java 9v] </li>
+                 <li>(iv)Data-Oriented Programming [from java 17v]</li>
+                  <li>(v)Procedural Programming [from java 22v]</li>
+                </li>
+            </ul>
+        </article>
+      </section>
+      <section id="Who invented Java and why ?">
+        <h2>Who invented Java and why ?</h2>
+        <article>
+          <ul>
+            <li>
+              Java is invented by Mr.James Gosling in Sun Microsystems in the
+              year 1991,and it is released in the year 1995.The version is
+              released only for testing purpose.
+            </li>
+            <li>
+              The first version for project development is released in the year
+              1996 as java 1.0.The latest version of java is 22,and it is
+              released on March 19<sup>th</sup> 2024.
+            </li>
+            <li>
+              Currently java is with Oracle Corporation.In the year 2010,Oracle
+              Corporation acquired java and all other products of Sun
+              Microsystems.
+            </li>
+            <li>
+                Java is invented to achieve Platform independency for developing internet based business applications. 
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section id="Types of Applications">
+        <h2>Types of Applications</h2>
+        <article>
+          <p>
+             In computer world all softwares or projects or applications are basically divided into two types:- <br><br>
+             <u><b>(i)Stand-alone Application:-</b></u> <br>
+              An application that is installed in one system and if it is accessible only within this system with a local call,and can't be accessible from other systems with a network via internet then we call it as Stand-alone application. A stand-alone application is a single user and single computer application.<br>
+              For example:-Calculator,Notepad,Antivirus,MS-office,Game softwares,browser,mobile apps etc.. <br> <br>
+             <u><b>(ii)Internet Application:- </b></u><br>
+             An application that is installed in one system and if it is accessible from other systems with a network via internet is called as Internet Application.
+             An internet application is a multi user and multi computer application. <br>
+             For example:-Youtube,Instagram,Facebook,Amazon,Zoom etc...
+          </p>
+        </article>
+      </section>
+      <section id="What is Platform,PD,PI ?">
+        <h2>What is Platform,PD,PI ?</h2>
+        <article>
+          <p><b>Platform:- </b><br>
+            A platform is an environment in which programs are loaded and executed and generate output. A platform can be a software only platform or hardware only platform or both. <br>
+            <ul>
+                <li>The computer  platform is Processor+Hardware devices+OS.</li>
+                <li>C and C++ programs platform is OS.C and C++ programs are directly exceuted by OS.</li>
+                <li>Java Programs platform is JVM(Java Virtual Machine). Java Programs are excuted by JVM,but not by OS. JVM's platform is OS.The OS executes JVM, JVM executes Java Program. </li>
+                <li>Python program's platform is PVM(Python Virtual Machine).Python Programs are executed by PVM,but not by OS. PVM's platform is OS. The OS executes PVM, PVM executed Python Program.</li>
+                <li>HTML page platform is browser.</li>
+                <li>Audio and Video files platform is media player(vlc).</li>
+                <li>.NET program platform is CLR(Common Language Runtime). </li>
+                </ul>
+            </p>
+                <p><b>Platform Dependency:-</b> <br>
+                    A program's compiled code of one OS,if it can not be executed in different OS we call it as Platform Dependency.The programming language using which we develop this program is called as <b>Platform Dependent Language.</b> <br>
+                    For Example:C and C++ programs
+                </p>
+                <p><b>Platform Independency:-</b> <br>
+                    A program's compiled code of one OS, if it can be executed in different OS we call it as Platform Independency.The Programming language using which we develop this program is called as <b>Platform Independent Language.</b> <br>
+                    For example:Java,Python Programs
+                </p>
+        </article>
+      </section>
+      <section id="Why C and C++ programs are PD ?">
+        <h2>Why C and C++ programs are PD ?</h2>
+        <article>
+        <p>
+            In C and C++ languages programs are compiled targeting to one OS. Hence the compiled code contains ML(Machine Language)of a Particular OS directly.One OS machine language format is not understandable to another OS.Hence the C and C++ programs compiled code can not be executed by other OS.Hence the C and C++ programs are Platform Dependent. <br>
+            Not only C program, C software is also platform dependent, because all it's components Compiler, Linker & Library are Platform Dependent.So, we will have separate C software for every OS.
+        </p>
+        </article>
+      </section>
+      <section id="How java achieved PI ?">
+        <h2>How java achieved PI ?</h2>
+        <article>
+            <p>
+                In java,programs are not compiled into Machine Language of a Particular OS.It means in Java,Programs are not compiled targeting to one OS.In java,programs are compiled into one common languages code called <b>byte code</b> then later that byte code is converted into ML of a particular OS by JVM in which it is running.We have to separate JVM for OS for converting the same bytecode into a particular OS ML.
+            </p>
+        </article>
+      </section>
+      <section id="Downloading and installing JDK Software">
+        <h2>Downloading and installing JDK Software</h2>
+        <article>
+            <ul>
+                <li>JDK stands for Java Development Kit</li> 
+                <li>JDK is the java Software <br>
+                It provides :- <br>
+               (i)Development Tools <br>
+               (ii)Runtime Environment <br>
+              (iii)Java Library(API-Application Programming Interface)</li>
+                <li>Development tools means small softwares for compiling java program, reading byte code, generating documentation, preparing jar files etc... opeartions performing softwares are called Development Tools.
+                <br>
+                Runtime Environment means the platform for running java program. The JVM is called Runtime Environment of Java Program for executing java programs. <br>
+                Java Library means the predefined classes provided by SUN(Oracle) as part of JDK for reusing and developing our new programs. In java we will calls library as API.
+                </li>
+                <li>Hence we can say by installing JDK software we will get (compiler,JVM and API) for developing,compiling and executing a java program.</li>
+                <li>Downloading and installing JDK22 software:-</li>
+                (1)Open browser <br>
+                (2)Search jdk 22 download <br>
+                (3)Click java downloads <br>
+                (4)Scroll down ->Click windows <br>
+                (5)Click jdk.exe file <br> 
+                (6)Downloading will be start <br>
+                (7)After Downloading is completed <br>
+                (8)Click on jdk.exe file on browser download <br>
+                (9)Click yes to give permission to start installing <br>
+                (10)Click next in the first window <br>
+                (11)Click change in the next window <br>
+                (12)And make installing path as "C:\jdk-22\"
+                (13)Click Ok ->Next ->Close
+                (14)JDK installation is completed in the folder "C:\jdk-22"
+                <li>Steps to develop a java program <br>
+                a java program development, compilation and execution comes under & steps:-
+                (1)Open Notepad <br>
+                (2)Type java code/program <br>
+                (3)Save this program <br>
+                (4)Open cmd prompt software <br>
+                (5)Change drive and directory path in cmd prompt to our project drive and directory in which our program is saved.
+                (6)Compiler java program by using javac tool.(javac <file name>)
+                (7)Execute java byte code by using java tool .(java <class name>)
+                </li>
+            </ul>
+        </article>
+      </section>
+      <section id="Essential Statements to develop Java">
+        <h2>Essential Statements to develop Java</h2>
+        <article>
+            <p>To develop, compile, execute and display some message in java we have three essential Statements. <br>
+            <b>(i)Class :-</b><br>
+            Class is essential because, Java is an OOP language so every program must starts with a class. <br>
+            <b>(ii)Main method :-</b><br>
+            Main method is essential because,main method is the initial point of class logic execution.JVM executes a class starts with main method. If a class doesnot have main method, JVM will not execute it , will throw error. <br>
+            <b>(iii)System.out.println(); :-</b> <br>
+            System.out.println(); is essential in java. We can display any message on console only by using System.out.println(_);</p>
+        </article>
+      </section>
+      <section id="First Hello World Program">
+        <h2>First Hello World Program</h2>
+        <article>
+             <p>Step#1 : Open notepad [press window key->type notepad ->press enter key] <br>
+                Steps#2 : Type java program 
+                <div class="firstprogram">
+                    <pre>
+                        class FirstProgram {
+                            public static void main(String[] args){
+                                System.out.println("Hello World")
+                            }
+                        }
+                    </pre>
+                </div> 
+                Step#3 : Save the above program with the name "Example.java" in the folder "D:\FSJD\01CJ\01JB" <br>
+                Step#4 : Open cmd prompt <br>
+                Step#5 : Change drive and directory path by running below commands. <br>
+                Step#6 : Compile Example.java by using javac tool as shown in below. <br> 
+                Step#7 : Execute the class FirstProgram by using java tool as shown below. <br>
+                <div class="firstprogram">
+                    <pre>
+                        C:\Users\Puspanjali>D: <--
+                        D:\cd D:\FSJD\01CJ\01JB <--
+                        D:\FSJD\01CJ\01JB>javac Example.java <--
+                        D:\FSJD\01CJ\01JB>java FirstProgram
+                        output:Hello World
+                    </pre>
+                </div>
+              </p>
+        </article>
+      </section>
+      <section id="Develop a program to print your name on console">
+        <h2>Develop a program to print your name on console</h2>
+        <article>
+            <div class="firstprogram">
+                <pre>
+                    class Nameprinter {
+                        public static void main(String[] args) {
+                            System.out.println("Puspanjali Parida")
+                        }
+                    }
+                </pre>
+                </div>
+                <p>Save the above program with the NamePrinter.java in the folder D:\FSJD\01CJ\01JB.</p>
+                <div class="firstprogram">
+                    <pre>
+                        C:\Users\Puspanjali>D: <--
+                        D:\cd D:\FSJD\01CJ\01JB <--
+                        D:\FSJD\01CJ\01JB>javac NamePrinter.java <--
+                        D:\FSJD\01CJ\01JB>java NamePrinter
+                        output:Puspanjali Parida
+                    </pre>
+                </div>
+        </article>
+      </section>
+      <section id="Escape Sequence Characters">
+        <h2>Escape Sequence Characters</h2>
+        <article>
+            <p>
+                (i)A character preceded by \ is called esc seq character. <br>
+                (ii)The \ either adds or removes the special meaning to the character placed after \. <br>
+                (iii)The \ adds the special meaning to the letter n,t and s. <br>
+                (iv)The \ removes the special meaning to the letters ", ' and \. <br>
+                (v)After \ we can not place a letter or a digit or special character randomly as we like .From one programming language to another PL the list will be changed. <br>
+                (vi)The java supports below 18 esc seq Characters(9+8+1):- <br>
+                <b>1.Letter based esc seq Characters(9):-</b> <br>
+                (i)\n - inserts one new line
+                (ii)\t - inserts one tap spaces[<=8spaces] <br>
+                (iii)\r - inserts one carriage return <br>
+                (iv)\s - inserts one space <br>
+                (v)\f - inserts one form feed <br>
+                (vi)\b - inserts one back space <br>
+                (vii)\' - inserts one single quote ' <br>
+                (viii)\" - inserts one double quote " <br>
+                (ix)\\ - inserts one \ <br><br>
+                <b>2.Octal digits based esc seq Characters(8):-</b> <br>
+                (i)\0 - inserts one null character(it is not empty char) <br>
+                (ii)\1 - start of heading, used in data transmission <br>
+                (iii)\2 - start of Text, used in data transmission <br>
+                (iv)\3 - End of text, used in data transmission <br>
+                (v)\4 - End of transmission, used in data transmission <br>
+                (vi)\5 - Enquiry, used in data transmission <br>
+                (vii)\6 - Acknowledge, used in data transmission <br>
+                (viii)\7 - Bell, used for an audible alert or notification. <br><br>
+                <b>3.UNICODE based esc seq character(1):-</b>
+                (i)\UXXXX
+            </p>
+        </article>
+      </section>
+      <section id="What is User Defined method and Pre Defined Method ?">
+        <h2>What is User Defined method and Pre Defined Method ?</h2>
+        <article>
+            <p><b>User Defined Method:-</b> <br>
+                Developer defined method is called User Defined Method or Custom method. <br>
+                <b>Pre defined method:-</b>
+                Already defined methods are called predefined method.
+                These methods are may be developed by SUN Microsystem develpers, or some other developers. <br>
+                Example:- println() method is predefined.
+            </p>
+        </article>
+      </section>
+      <section id="What is User Defined Class and Pre Defined Class ?">
+        <h2>What is User Defined Class and Pre Defined Class ?</h2>
+        <article>
+            <p><b>User Defined Class:-</b> <br>
+                Developer defined class is called as User defined class or custom class. <br>
+                <b>Predefined class :-</b> <br>
+                Already defined class is called as Predefined Class.These class may be developed by SUN Microsystem developers, or some other developers. <br>
+                Example:- System,String are predefined classes and FirstProgram,Employee are user defined class.
+            </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

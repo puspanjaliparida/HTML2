@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Jersey+20+Charted&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lugrasimo&family=Montserrat:wght@600&family=Oswald:wght@200..700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100..900&family=Sedan:ital@0;1&display=swap");
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #110000;
+}
+.pimg1 {
+  background-image: url(images/image1.jpg);
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url(images/image3.webp);
+  min-height:  100%;
+}
+.pimg3 {
+  background-image: url(images/image5.jpg);
+  min-height: 100%;
+}
+.pimg4 {
+  background-image: url(images/image4.avif);
+  min-height: 100%;
+}
+.pimg5 {
+  background-image: url(images/image3.jpg);
+  min-height: 100%;
+}
+.pimg6 {
+  background-image: url(images/image6.jpg);
+  min-height: 100%;
+}
+.pimg7 {
+    background-image: url(images/thank.webp);
+    min-height: 100%;
+}
+.pimg1,
+.pimg7 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  animation: parallaxBackground 10s infinite linear ;
+}
+@keyframes parallaxBackground {
+  from {
+    background-position: 0 0; 
+  }
+  to {
+    background-position: 0 100%; 
+  }
+}
+.pimg2,
+.pimg3,
+.pimg4,
+.pimg5,
+.pimg6 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  animation: parallaxBackground 10s infinite linear ;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textBg {
+  background: #000708;
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background-color: wheat;
+  padding: 20px;
+  margin: 20px;
+}
+.section-dark {
+  background-color: wheat;
+  padding: 20px;
+  margin: 20px;
+}
+.section p {
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: justify;
+}
+.section h1 {
+  font-family: "Lugrasimo", cursive;
+  font-weight: 800;
+  font-size: 34px;
+  font-style: normal;
+  color: rgb(35, 2, 67);
+}
+#textBg {
+  animation: fadeIn 2s ease-in-out;
+  transform: translateY(-50%);
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+    color: #ff6347; /* Red */
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+    color: #00f7c2; /* Green */
+  }
+  40% {
+    opacity: 2;
+    transform: translateY(0);
+    color: brown;
+  }
+  60% {
+    opacity: 3;
+    transform: translateY(0);
+    color: rgb(0, 48, 170);
+  }
+  80% {
+    opacity: 4;
+    transform: translateY(0);
+    color: rgb(25, 218, 0);
+  }
+  100% {
+    opacity: 5;
+    transform: translateY(0);
+    color: rgb(95, 0, 63);
+  }
+}
