@@ -11,7 +11,8 @@
     <header>
       <nav>
         <h1>Core Java</h1>
-        <ul>
+        <ul class="nav-menu">
+          <a href="#Chapter1"><li>Chapter1</li></a>
           <a href="#Introduction To Java"><li>Introduction To Java</li></a>
           <a href="#Who invented Java and why ?"
             ><li>Who invented Java and why ?</li></a
@@ -25,31 +26,34 @@
           >
           <a href="#How java achieved PI ?"><li>How java achieved PI?</li></a>
           <a href="#Downloading and installing JDK Software"
-            ><li>Downloading and installing JDK Software</li></a
-          >
-          <a href="#Essential Statements to develop Java"
-            ><li>Essential Statements to develop Java</li></a
-          >
+            ><li>Downloading and installing JDK Software</li></a>
+          <a href="#Essential Statements to develop Java"><li>Essential Statements to develop Java
+            </li></a>
           <a href="#First Hello World Program"
-            ><li>First Hello World Program</li></a
-          >
+            ><li>First Hello World Program</li></a>
           <a href="#Develop a program to print your name on console"
-            ><li>Develop a program to print your name on console</li></a
-          >
+            ><li>Develop a program to print your name on console</li></a>
           <a href="#Escape Sequence Characters"
-            ><li>Escape Sequence Characters</li></a
-          >
+            ><li>Escape Sequence Characters</li></a>
           <a href="#What is User Defined Method and Pre Defined Method ?"
-            ><li>What is User Defined method and Pre Defined Method ?</li></a
-          >
+            ><li>What is User Defined Method and Pre Defined Method ?</li></a>
           <a href="#What is User Defined Class and Pre Defined Class ?"
-            ><li>What is User Defined Class and Pre Defined Class ?</li></a
-          >
-          <a href="#"></a>
+            ><li>What is User Defined Class and Pre Defined Class ?</li></a>
+          <a href="#Chapter2"><li>Chapter2</li></a>
+          <a href="#What is Comment and why ?"><li>What is Comment and why ?</li></a>
+          <a href="#When must use a comment ?"><li>When must use a comment ?"</li></a>
+          <a href="#How many types of comments Java supports ?"><li>How many types of comments Java supports ?</li></a>
+          <a href="#What is Identifier ?"><li>What is Identifier ?</li></a>
+          <a href="#Rules in Creating Identifier"><li>Rules in Creating Identifier</li></a>
+          <a href="#Types of Identifier"><li>Types of Identifier</li></a>
+          <a href="#Reserved Words in Java"><li>Reserved Words in Java</li></a>
         </ul>
       </nav>
     </header>
     <main>
+      <section id="Chapter1">
+        <h2>Chapter1</h2>
+      </section>
       <section id="Introduction To Java">
         <h2>Introduction To Java</h2>
         <article>
@@ -296,8 +300,8 @@
             </p>
         </article>
       </section>
-      <section id="What is User Defined method and Pre Defined Method ?">
-        <h2>What is User Defined method and Pre Defined Method ?</h2>
+      <section id="What is User Defined Method and Pre Defined Method ?">
+        <h2>What is User Defined Method and Pre Defined Method ?</h2>
         <article>
             <p><b>User Defined Method:-</b> <br>
                 Developer defined method is called User Defined Method or Custom method. <br>
@@ -317,6 +321,178 @@
                 Already defined class is called as Predefined Class.These class may be developed by SUN Microsystem developers, or some other developers. <br>
                 Example:- System,String are predefined classes and FirstProgram,Employee are user defined class.
             </p>
+        </article>
+      </section>
+      <section id="Chapter2">
+        <h2>Chapter2</h2>
+      </section>
+      <section id="What is Comment and why ?">
+        <h2>What is Comment and why ?</h2>
+        <article>
+          <p><b>Comment:-</b> <br>
+            A comment is a special syntax.A comment is used for telling to compiler for ignoring some part of the code compilation.The code placed in the comment will not be compiled by compiler,byte code is not generated.
+            It means the code placed in the comment will not be available in .class file.
+          </p>
+        </article>
+      </section>
+      <section id="When must use a comment ?"">
+        <h2>When must use a comment ?"</h2>
+        <article>
+          <p><b>We must use Comment:-</b>When the existing code is temporarily not required. <br>
+            or
+            <br>
+            When we need to provide description to a program.
+          </p>
+        </article>
+      </section>
+      <section id="How many types of comments Java supports ?">
+        <h2>How many types of comments Java supports ?</h2>
+        <article>
+          <p><b>Java Supports 3 types of Comments</b> <br>
+           (i)Single Line Comment   (//) <br>
+           (ii)Mutli Line Comment   (/*   */) <br>
+           (iii)Document Comment    (/** */) <br>
+          <b>Single line</b> and <b>Multi line</b> comments are used for commenting programming Statements such as variable, methods, Sopln(),conditions,loops etc...
+          <br>
+          <b>Document Comment</b> is used for providing description to programming elements such as class, variable, method, constructor, block, inner classes.
+          </p>
+        </article>
+      </section>
+      <section id="What is Identifier ?">
+        <h2>What is Identifier ?</h2>
+        <article>
+          <p>A name of a Programming element is technically called as an <b>Identifier.</b>
+          A class name, variable name and method name are called as Identifier.
+         </p>
+        </article>
+      </section>
+      <section id="Rules in Creating Identifier">
+        <h2>Rules in Creating Identifier</h2>
+        <article>
+          <p><b>(a)Identifier must contain only <br></b>
+          (i)letters ->A-Z or a-z  <br>
+          (ii)digits ->0-9 <br>
+          (iii)special Characters ->only $ and _ <br> <br>
+          (b)Identifier can not be started with a digit. We can use a digit only from second character onwards. <br>
+          (c)Identifier can not have special Characters except $ and _. <br>
+          (d)Identifier can not have space in the middle of the words. If we need to provide spaces, we must connect by using _. Hence _ is called as Connector symbol. <br>
+          (e)Identifier is case sensitive (a!=A) we can create two variables with the name 'a' and 'A'. <br>
+          (f)The keyword and reserved words can not be used as an user defined Identifier. But predefined class name, variable name and method name can be used as User defined Identifier.
+          </p>
+        </article>
+      </section>
+      <section id="Types of Identifier">
+        <h1>Types of Identifier</h1>
+        <article>
+          <p>
+            <b>We will provide name to below programming element:-</b> <br>
+            (i)Module Name <br>
+            (ii)Package Name <br>
+            (iii)Class Name <br>
+            (iv)Variable Name <br>
+            (v)Method Name <br>
+            (vi)Lebel Name <br>
+            (vii)Generic Parameter Name
+          </p>
+        </article>
+      </section>
+      <section id="Reserved Word in Java">
+        <h2>Reserved Words in Java</h2>
+        <article>
+          <p><b>01.Package creation and usage(2)</b> <br>
+          01.package <br>
+          02.import <br> <br>
+          <b>02.class creation(3)</b> <br>
+          03.class <br>
+          04.Interface <br>
+          05.enum(1.5) <br> <br>
+          <b>03.Data types and Return types(8+1)</b> <br>
+          06.byte <br>
+          07.short <br>
+          08.int <br>
+          09.long <br>
+          10.float <br>
+          11.double <br>
+          12.char <br>
+          13.boolean <br>
+          14.void <br> <br>
+          <b>04.Memory allocation(2)</b> <br>
+          15.static <br>
+          16.new <br> <br>
+          <b>05.Control Flow Statements(11)</b> <br>
+          <b>01.Conditional or Decision making(5)</b> <br>
+          17.if <br>
+          18.else <br>
+          19.switch <br>
+          20.case <br>
+          21.default <br>
+          <b>02.Loop or Iterative(3)</b> <br>
+          22.while <br>
+          23.do <br>
+          24.for <br>
+          <b>03.Transfer or Branching(3)</b> <br>
+          25.break <br>
+          26.continue <br>
+          27.return <br> <br>
+          <b>06.Accessibily Modifier(4)</b> <br>
+          28.private <br>
+          default /package-private <br>
+          29.protected <br>
+          30.public <br><br>
+          <b>07.Execution Level Modifiers(8)</b><br>
+          static <br>
+          31.final <br>
+          32.abstract <br>
+          33.native <br>
+          34.transient <br>
+          35.volatile <br>
+          36.synchronized <br>
+          37.strictfp <br> <br>
+          <b>08.Establishing inheritance relationship(2)</b> <br>
+          38.extends <br>
+          39.implements <br> <br>
+          <b>09.Representing object and it's members(3)</b> <br>
+          40.this <br>
+          41.super <br>
+          42.instance of <br> <br>
+          <b>10.Exception Handling Statements (5+1)</b> <br>
+          43.throw <br>
+          44.throws <br>
+          45.try <br>
+          46.catch <br>
+          47.finally <br>
+          48.assert <br> <br>
+          <b>11.Unimplemented Keywords(2)</b> <br>
+          49.goto <br>
+          50.const <br> <br>
+          <b>12.Java 9v new keyword(1)</b> <br>
+          51._(underscore) <br> <br>
+          <b>13.Default/Reserved Literals(3)</b> <br>
+          -boolean literals(2) <br>
+          52.true <br>
+          53.false <br>
+          -null literal(1) <br>
+          54.null <br> <br>
+          <b>14.Java 9v Restricted Keywords(10)</b> <br>
+          55.module <br>
+          56.requires <br>
+          57.transitive <br>
+          58.exports <br>
+          59.open <br>
+          60.opens <br>
+          61.to <br>
+          62.provides <br>
+          63.with <br>
+          64.uses <br><br>
+          <b>15.Special Identifiers or Restricted Identifiers(6)</b> <br>
+          65.var <br>
+          66.yield <br>
+          67.record <br>
+          68.sealed <br>
+          69.non-sealed <br>
+          70.permits <br>
+          71.when 
+          </p>
         </article>
       </section>
     </main>

@@ -3,6 +3,7 @@ html,
 body {
   height: 100%;
   margin: 0;
+  padding: 0;
   font-size: 16px;
   font-family: "Prompt", sans-serif;
   font-weight: 400;
@@ -37,6 +38,10 @@ body {
     background-image: url(images/thank.webp);
     min-height: 100%;
 }
+.pimg8 {
+  background-image: url(images/8.avif);
+  min-height: 100%;
+}
 .pimg1,
 .pimg7 {
   position: relative;
@@ -59,7 +64,8 @@ body {
 .pimg3,
 .pimg4,
 .pimg5,
-.pimg6 {
+.pimg6,
+.pimg8 {
   position: relative;
   background-position: center;
   background-size: cover;
@@ -120,12 +126,12 @@ body {
   0% {
     opacity: 0;
     transform: translateY(-50px);
-    color: #ff6347; /* Red */
+    color: #ff6347; 
   }
   20% {
     opacity: 1;
     transform: translateY(0);
-    color: #00f7c2; /* Green */
+    color: #00f7c2; 
   }
   40% {
     opacity: 2;
@@ -148,12 +154,14 @@ body {
     color: rgb(95, 0, 63);
   }
 }
-@media (max-width: 768px) {
-  section {
-    flex-direction: column;
+@media screen and (max-width: 768px) {
+  .ptext {
+    font-size: 16px; 
+  } 
+  .section {
+    padding: 30px 10px; 
   }
-
   .textBg {
-    font-size: 1.5rem;
+    padding: 5px;
   }
 }

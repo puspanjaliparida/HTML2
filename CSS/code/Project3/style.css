@@ -14,6 +14,7 @@ body {
   font-weight: 300;
   line-height: 1.4;
   scroll-behavior: smooth;
+  background-color: #ffea00;
 }
 body {
   font-size: 1.4rem;
@@ -200,12 +201,12 @@ footer ul {
 footer ul li {
   font-size: 1.8rem;
 }
-.banner_image img{
+/* .banner_image img{
   width: 60%;
   height: 2200px;
   float: right;
   margin-top: 94px;
-}
+} */
 
 .post h1 {
   font-size: 3rem;
@@ -217,13 +218,6 @@ footer ul li {
   display: flex;
   gap: 1rem;
   align-items: center;
-}
-
-article {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  margin-bottom: 2rem;
 }
 
 a {
@@ -261,4 +255,41 @@ a {
   .banner_image1 h2 {
     font-size: 1.5em;
   }
+}
+.article {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  flex: 1; /* Take remaining space */
+  padding-right: 20px; /* Adjust spacing */
+}
+
+.image-container {
+  flex: 1; /* Take remaining space */
+}
+
+.image-container img {
+  max-width: 100%; /* Ensure image fits container */
+  height: 400px; /* Maintain aspect ratio */
+  display: block;
+}
+.article1 {
+  display: flex;
+}
+
+.image-container1 {
+  flex: 1; /* Take up 50% of the container width */
+  margin-right: 1px; /* Adjust spacing */
+}
+
+.image-container1 img {
+  max-width: 100%; /* Ensure image fits container */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
+
+.content1 {
+  flex: 1; /* Take up 50% of the container width */
 }

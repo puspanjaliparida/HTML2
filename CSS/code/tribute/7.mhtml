@@ -1,0 +1,129 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:5501/CSS/code/FrontendMentor/challenge2.html
+Subject: frontendmentor
+Date: Thu, 2 May 2024 22:39:37 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--ZEs7DjTZHb44Mp2KHrgTzRBjfuHwgEZdEflCoWrgQW----"
+
+
+------MultipartBoundary--ZEs7DjTZHb44Mp2KHrgTzRBjfuHwgEZdEflCoWrgQW----
+Content-Type: text/html
+Content-ID: <frame-DD82B4959885E5C68D39A4EF21C13792@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5501/CSS/code/FrontendMentor/challenge2.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>frontendmentor</title>
+    <link rel=3D"stylesheet" href=3D"http://127.0.0.1:5501/CSS/code/Fronten=
+dMentor/style2.css">
+  </head>
+  <body>
+    <div id=3D"card">
+      <div id=3D"top-section">
+        <h2>Join our community</h2>
+        <h4>30-day, hassle-free money back guarantee</h4>
+        <p>
+          Gain access to our full library of tutorials along with expert co=
+de
+          reviews. Perfect for any developers who are serious about honing =
+their
+          skills.
+        </p>
+      </div>
+      <div id=3D"bottom-section">
+        <div id=3D"bottom-left-section">
+          <h4>Monthly Subscription</h4>
+          <div id=3D"price-container">
+            <div id=3D"price">$29</div>
+            <div id=3D"price-frequency">per month</div>
+          </div>
+          <p>Full access for less than $1 a day</p>
+          <button>Sign Up</button>
+        </div><div id=3D"bottom-right-section">
+          <h4>Why Us</h4>
+          <ul>
+            <li>Tutorials by industry experts</li>
+            <li>Peer &amp; expert code review</li>
+            <li>Coding exercises</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  <!-- Code injected by live-server -->
+
+
+</body></html>
+------MultipartBoundary--ZEs7DjTZHb44Mp2KHrgTzRBjfuHwgEZdEflCoWrgQW----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5501/CSS/code/FrontendMentor/style2.css
+
+@charset "utf-8";
+
+html { box-sizing: border-box; font-family: Karla; font-size: 16px; font-we=
+ight: 400; }
+
+body { display: flex; align-items: center; justify-content: center; height:=
+ 100vh; margin: 0px; }
+
+h2, h4, p { margin: 0px; }
+
+*, ::before, ::after { box-sizing: inherit; }
+
+#card { width: 600px; height: 400px; box-shadow: rgba(0, 0, 0, 0.35) 2px 3p=
+x 7px 0px; border-radius: 5px; overflow: hidden; align-items: center; justi=
+fy-content: center; }
+
+#top-section { width: 100%; height: 45%; padding: 25px; }
+
+#bottom-section { width: 100%; height: 55%; color: white; display: flex; }
+
+#bottom-left-section { display: inline-block; width: 50%; height: 100%; ver=
+tical-align: top; background-color: rgb(42, 178, 175); padding: 25px; }
+
+#bottom-right-section { display: inline-block; width: 50%; height: 100%; ba=
+ckground-color: rgb(46, 191, 189); vertical-align: top; padding: 25px; }
+
+#top-section h2 { color: rgb(42, 178, 175); margin-bottom: 20px; }
+
+#top-section h4 { color: rgb(192, 223, 52); margin-bottom: 10px; }
+
+#top-section p { color: rgb(152, 166, 189); }
+
+button { color: white; background-color: rgb(192, 223, 52); border: none; p=
+adding: 10px; width: 100%; border-radius: 5px; }
+
+button:hover { cursor: pointer; background-color: rgb(169, 196, 45); transf=
+orm: scale(1.02); }
+
+#price { font-weight: 700; font-size: 1.4rem; }
+
+#bottom-left-section h4 { margin-bottom: 25px; }
+
+#bottom-left-section p { font-size: 0.8rem; margin-bottom: 40px; }
+
+#price-frequency, #price { display: inline-block; }
+
+#price-frequency { position: relative; top: -3px; font-size: 0.8rem; opacit=
+y: 0.7; margin-left: 5px; }
+
+#price-container { margin-bottom: 10px; }
+
+ul { padding: 0px; list-style: none; font-size: 0.8rem; opacity: 0.8; }
+
+@media (max-width: 650px) {
+  #card, #bottom-left-section, #bottom-right-section { width: 100%; height:=
+ auto; }
+}
+------MultipartBoundary--ZEs7DjTZHb44Mp2KHrgTzRBjfuHwgEZdEflCoWrgQW------
