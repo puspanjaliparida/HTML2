@@ -109,6 +109,7 @@ nav li:hover {
   font-family: "Lobster Two", sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin-top: 20px;
 }
 .container img{
   height: 350px;
@@ -171,7 +172,6 @@ nav li:hover {
   font-weight: bold;
   overflow: hidden; 
   white-space: nowrap; 
-  /* margin: 0 auto;  */
   animation: typing 5s steps(40, end);
   margin-left: 100px;
 }
