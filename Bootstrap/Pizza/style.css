@@ -6,10 +6,15 @@
   padding: 0;
   font-family: "Kanit", sans-serif;
 }
-
+.body{
+  background-color: rgba(127, 255, 212, 0.089);
+}
+html {
+  scroll-behavior: smooth;
+}
 #cantainer-background {
   position: relative;
-  z-index: 1000; /* Ensure the logo and navbar are on top of other content */
+  z-index: 1000;
 }
 #navbar-color {
   position: fixed;
@@ -20,11 +25,10 @@
 #logo-color {
   font-family: "Briem Hand", cursive;
   display: block;
-  padding: 5px 15px; /* Adjust padding as needed */
-  /* background-color: #fff; Background color of the logo */
+  padding: 5px 15px; 
 }
 .navbar-nav {
-  margin-top: 0.1px; /* Adjust the margin to make space for the fixed navbar */
+  margin-top: 0.1px;
 }
 #logo-color i img {
   width: 50px;
@@ -39,25 +43,25 @@
     gap: 90px;
 }
 .navbar-brand {
-  margin-left: 50px;
-  color: rgba(255, 166, 0);
+  margin-left: 26px;
+  color: greenyellow;
   font-weight: bold;
 }
 #menu-color {
-  background-color: rgba(255, 166, 0);
+  background-color: greenyellow;
 }
 .navbar-brand:hover {
-  color: rgba(255, 166, 0);
+  color: white;
 }
 #navbar-color {
   background-color: rgba(0, 0, 0, 0.376);
 }
 .navbar-nav {
   gap: 50px;
-  margin-right: 15px;
+  margin-right:15px;
 }
 #first {
-  border-bottom: 2px solid rgba(255, 166, 0);
+  border-bottom: 2px solid greenyellow;
 }
 .nav-link {
   text-decoration: none;
@@ -67,9 +71,9 @@
   font-family: "Briem Hand", cursive;
 }
 .nav-link:hover {
-  background-color: rgba(255, 166, 0);
-  box-shadow: 0 0 5px rgba(255, 166, 0), 0 0 20px rgba(255, 166, 0),
-    0 0 60px rgba(255, 166, 0), 0 0 150px rgba(255, 166, 0);
+  background-color: greenyellow;
+  box-shadow: 0 0 5px greenyellow, 0 0 20px greenyellow,
+    0 0 60px greenyellow, 0 0 150px greenyellow;
   color: black;
 }
 .main-content {
@@ -108,7 +112,7 @@
     border-color: transparent;
   }
   50% {
-    border-color: orange;
+    border-color: white;
   }
 }
 .content h1 {
@@ -164,7 +168,7 @@ body{
   display:block;
   position:absolute;
   border-radius:2px;
-  border:7px solid darkorange;
+  border:7px solid greenyellow;
   box-sizing:border-box;
   transition: all .85s cubic-bezier(0.25, 1, 0.33, 1);
   box-shadow: 0 30px 85px rgba(0,0,0,0.14), 0 15px 35px rgba(0,0,0,0.14);
@@ -182,7 +186,7 @@ body{
   width:8px;
   height:8px;
   display:block;
-  background-color:#F3CF14;
+  background-color: greenyellow;
   border-radius:100%;
   position:absolute;
   transition: all .85s cubic-bezier(0.25, 1, 0.33, 1);
@@ -387,7 +391,7 @@ body{
   box-sizing: border-box;
   width: 1110px;
   font-weight: 700;
-  color: darkorange;
+  color: greenyellow;
   font-family: "Oleo Script", system-ui;
   box-shadow: 0px 10px 20px pink;
 }
@@ -450,19 +454,19 @@ body{
   font-size: 50px;
   font-weight: bold;
   font-family: "Briem Hand", cursive;
-  color: darkorange;
+  color: greenyellow;
 }
 .card-content h3 {
   font-size: 30px;
   font-weight: bold;
   font-family: "Briem Hand", cursive;
-  color: darkorange;
+  color: greenyellow;
 }
 .card-content h5 {
   font-size: 30px;
   font-weight: bold;
   font-family: "Briem Hand", cursive;
-  color: darkorange;
+  color: greenyellow;
 }
 .card-content p {
   font-weight: 900px;
@@ -495,7 +499,7 @@ body{
 .change-content:after {
   content: " ";
   animation: changetext 10s infinite linear;
-  color: rgba(255, 166, 0);
+  color: greenyellow;
 }
 @keyframes changetext {
   0% {
@@ -551,7 +555,7 @@ body{
 }
 .banner h2 {
   font-size: 50px;
-  color: rgba(255, 166, 0);
+  color: greenyellow;
   font-weight: bold;
   padding-top: 15px;
   margin-left: 200px;
@@ -565,15 +569,15 @@ body{
   margin-top: 100px;
   letter-spacing: 3px;
   font-weight: bold;
-  background-color: rgba(255, 166, 0);
+  background-color: greenyellow;
   border: none;
   transition: 0.3s ease;
   cursor: pointer;
 }
 #btn2 button:hover {
-  background-color: rgba(255, 166, 0);
-  box-shadow: 0 0 5px rgba(255, 166, 0), 0 0 20px rgba(255, 166, 0),
-    0 0 60px rgba(255, 166, 0), 0 0 150px rgba(255, 166, 0);
+  background-color: greenyellow;
+  box-shadow: 0 0 5px greenyellow, 0 0 20px greenyellow,
+    0 0 60px greenyellow, 0 0 150px greenyellow;
 }
 .new-card {
   margin-top: 50px;
@@ -593,7 +597,7 @@ body{
   letter-spacing: 3px;
   font-weight: bold;
   border: none;
-  background-color: rgba(255, 166, 0);
+  background-color: greenyellow;
   transition: 0.5s ease-in;
   cursor: pointer;
 }
@@ -608,7 +612,7 @@ body{
 #btn4 button {
   width: 200px;
   height: 35px;
-  background-color: rgba(255, 166, 0);
+  background-color: greenyellow;
   border: none;
   font-weight: bold;
   transition: transform 0.5s ease;
@@ -629,7 +633,7 @@ body{
 }
 .banner2 h1 {
   font-weight: bold;
-  color: darkorange;
+  color: greenyellow;
   font-size: 60px;
   padding-top: 100px;
   margin-left: 10px;
@@ -637,7 +641,7 @@ body{
 }
 .banner2 h2 {
   font-weight: bold;
-  background-color: rgba(255, 166, 0);
+  background-color: greenyellow;
   font-size: 60px;
   display: inline-block;
   margin-left: 50px;
@@ -650,7 +654,7 @@ body{
 }
 #about h1{
   font-family: "Oleo Script", system-ui;
-  color: darkorange;
+  color: greenyellow;
   box-shadow: 0px 10px 20px pink;
   margin-left: 2px;
   text-align: center;
@@ -664,14 +668,13 @@ body{
   border-radius: 30px;
 }
 .text-center1{
-  color: darkorange;
+  color: greenyellow;
   font-family: "Oleo Script", system-ui;
   box-shadow: 0px 10px 20px pink;
   width: 1110px;
   align-items: center;
   margin-left: 100px;
   text-align: center;
-  margin-top: 30px;
 }
 #footer {
   background-color: black;
@@ -688,7 +691,7 @@ body{
   padding-left: 0;
 }
 #footer .footer-links a:hover {
-  color: rgba(255, 166, 0);
+  color: greenyellow;
 }
 .copyright {
   color: white;
