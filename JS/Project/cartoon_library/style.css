@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Jersey+20+Charted&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lugrasimo&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:wght@600&family=Oleo+Script:wght@400;700&family=Oswald:wght@200..700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&family=Platypi:ital,wght@0,300..800;1,300..800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Sedan:ital@0;1&family=Sedgwick+Ave+Display&family=Sevillana&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --primary: darkblue;
+}
+:root{
+    display: flex;
+    justify-content: center;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    max-width: 1280px;
+    background-color: aquamarine;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding:10px 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+header .logo{
+      font-size: 48px;
+      font-family: "Dancing Script", cursive;
+      font-weight: 800;
+}
+header span{
+    color:var(--primary);
+    font-family: "Dancing Script", cursive;
+}
+h1{
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    font-weight: 800;
+}
+#main{
+   display: grid;
+   grid-template-columns: repeat(3,auto);
+   gap: 10px;
+}
+.cartoon{
+   padding: 20px;
+   box-shadow: 5px 5px goldenrod;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   transition: all 2s ease;
+}
+.cartoon:hover{
+   transform: scale(1.1);
+}
+.cartoon img{
+   width: 200px;
+}
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  height: 50px;
+}
+#modal{
+    height:20vh;
+    width: 40vw;
+    position: fixed;
+    top:50vh;
+    left:30vw;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background-color: black;
+    color: white;
+    display: none;
+}
