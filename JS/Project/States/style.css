@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Jersey+20+Charted&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lugrasimo&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:wght@600&family=Oleo+Script:wght@400;700&family=Oswald:wght@200..700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&family=Platypi:ital,wght@0,300..800;1,300..800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Sedan:ital@0;1&family=Sedgwick+Ave+Display&family=Sevillana&display=swap");
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #19c7de11;
+  color: #333;
+  text-align: center;
+}
+.h1{
+    font-family: "Lobster", sans-serif;
+    font-size: 20px; 
+    color: darkblue; 
+}
+#search-bar {
+  padding: 10px;
+  width: 30%;
+  /* max-width: 400px; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 640px;
+  margin-top: 1px;
+}
+#states-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.state-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.state-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.state-card img:hover {
+  scale: 1.1 ease;
+}
+.state-card h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: darkblue;
+}
+
+.state-card p {
+  margin: 5px 0;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: darkcyan;
+}
+.state-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 10px blue;
+}
+.state-card .details-button,
+.state-card .back-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.state-card .details-button:hover,
+.state-card .back-button:hover {
+  background-color: #0056b3;
+}
+.food-image {
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 8px;
+}

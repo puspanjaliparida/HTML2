@@ -1,0 +1,282 @@
+[
+    {
+        "name": "Andhra Pradesh",
+        "image": "https://th.bing.com/th/id/OIG4.uzo5y9ZheToE70tKpuW7?pid=ImgGn",
+        "capital": "Amaravati",
+        "food": "Gutti Vankaya Kura",
+        "foodImage": "https://th.bing.com/th/id/OIG4.iFz1XVaWe2EJr.E_yK7Q?pid=ImgGn",
+        "landmark": "Famous Landmark 1",
+        "culture": "Kuchipudi",
+        "imageCulture":"https://th.bing.com/th/id/OIG4.CaiCCoSm0gDyJVJPnESP?w=1024&h=1024&rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Arunachal Pradesh",
+        "image": "https://th.bing.com/th/id/OIG2.0fclfFbdyIiXdP8bnN_b?pid=ImgGn",
+        "capital": "Itanagar",
+        "food": "Thukpa",
+        "foodImage": "https://th.bing.com/th/id/OIG2.jMHrX0lV2PExFEv1Ergi?pid=ImgGn",
+        "landmark": "Famous Landmark 2",
+        "culture": "Buiya",
+        "imageCulture":"https://th.bing.com/th/id/OIG3.4TxxqIRkRe9POZu12w8s?w=1024&h=1024&rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Assam",
+        "image": "https://th.bing.com/th/id/OIG4.VUwlNn6s9oUBg0QKLud.?pid=ImgGn",
+        "capital": "Dispur",
+        "food": "Papaya Khar",
+        "foodImage":"https://th.bing.com/th/id/OIG4.YLJjYIiuN9wULPUogzB0?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 3",
+        "culture": "Bihu",
+        "imageCulture":"https://th.bing.com/th/id/OIG3.uiUV4ZVlZ4IoCZnPk6wS?pid=ImgGn"
+    },
+    {
+        "name": "Bihar",
+        "image": "https://th.bing.com/th/id/OIG2.qRwSJtQ1SMek1MFSbOUE?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "capital": "Patna",
+        "food": "Litti Chokha",
+        "foodImage":"https://th.bing.com/th/id/OIG1.2Vek8p1wBj5UkEpnX8tb?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 4",
+        "culture": "Jata-Jatin",
+        "imageCulture":"https://th.bing.com/th/id/OIG2.lUfgo5IixOOzIeHlgW_P?w=1024&h=1024&rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Chhattisgarh",
+        "image": "https://th.bing.com/th/id/OIG2.B6XMQQNe0hdw36DRuEON?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "capital": "Raipur",
+        "food": "Muthia",
+        "foodImage":"https://th.bing.com/th/id/OIG4.DJ1U28jYn_t6RNStIcNC?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 5",
+        "culture": "Gaur Maria",
+        "imageCulture":"https://th.bing.com/th/id/OIG3.aNJKZVIFseJPiw_.K5F2?w=1024&h=1024&rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Goa",
+        "image": "https://th.bing.com/th/id/OIG3.EsZyFIOLNJMrd9kewhF6?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "capital": "Panaji",
+        "food": "Fish Curry",
+        "foodImage":"https://th.bing.com/th/id/OIG3.7vobykBAYcNcB8k2wbgo?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 6",
+        "culture": "Tarangamel",
+        "imageCulture":"https://th.bing.com/th/id/OIG3.Df3tjkHgQ98CSwZ_CYIL?w=1024&h=1024&rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Gujarat",
+        "image": "https://th.bing.com/th/id/OIG1.auoT0PwxL2RKcZ4feQEq?pid=ImgGn",
+        "capital": "Gandhinagar",
+        "food": "Khandvi",
+        "foodImage":"https://th.bing.com/th/id/OIG3.2_HQHo1_cnaQUbngDmyA?pid=ImgGn",
+        "landmark": "Famous Landmark 7",
+        "culture": "Garba",
+        "imageCulture":"https://th.bing.com/th/id/OIG4.zi04r_EeaVhNiW2_B39T?w=1024&h=1024&rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Haryana",
+        "image": "https://th.bing.com/th/id/OIG3.vLOiLDpx5Wdjyl2oh9dg?pid=ImgGn",
+        "capital": "Chandigarh",
+        "food": "Bajre Ki Khichdi",
+        "foodImage":"https://th.bing.com/th/id/OIG1.weld4ukzrrm51_oD93wb?pid=ImgGn",
+        "landmark": "Famous Landmark 8",
+        "culture": "Jhumar",
+        "imageCulture":"https://th.bing.com/th/id/OIG4.AttT6OExiEzjFi_C3wqq?w=1024&h=1024&rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Himachal Pradesh",
+        "image": "https://th.bing.com/th/id/OIG2.uHbwa.A3GO51n37dLTGi?pid=ImgGn",
+        "capital": "Shimla",
+        "food": "Sidu",
+        "foodImage":"https://th.bing.com/th/id/OIG2.N4Frpgn0Ch3qUVVxZD9_?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 9", 
+        "culture": "Jhora",
+        "imageCulture":"https://th.bing.com/th/id/OIG1.UoJjA_cnw7mR6x9pYeoC?w=1024&h=1024&rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Jharkhand",
+        "image": "https://th.bing.com/th/id/OIG4.rm1urQ9U4ZN7gnJdWLjg?pid=ImgGn",
+        "capital": "Ranchi",
+        "food": "Dhooska",
+        "foodImage":"https://th.bing.com/th/id/OIG4.xar2EftahYn2T5nYM25S?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 10",
+        "culture": "Alkap",
+        "imageCulture":"https://th.bing.com/th/id/OIG1.AKmT7ePxVrbxEkmolNDA?w=1024&h=1024&rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Karnataka",
+        "image": "https://th.bing.com/th/id/OIG1.nEznIL191ZWoCRBQ8ZcR?pid=ImgGn",
+        "capital": "Bengaluru",
+        "food": "Bisi Bele Bath",
+        "foodImage":"https://th.bing.com/th/id/OIG4.kZtipOZ2SaMKW2Abri87?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 11",
+        "culture": "Yakshagan",
+        "imageCulture":"https://mangaloremerijaan.com/wp-content/uploads/2023/02/yakshagana.jpg"
+    },
+    {
+        "name": "Kerala",
+        "image": "https://th.bing.com/th/id/OIG2.RKo6OCvicdaqeuJDaG0E?pid=ImgGn",
+        "capital": "Thiruvananthapuram",
+        "food": "Idiyappam and Curry",
+        "foodImage":"https://th.bing.com/th/id/OIG3.PqRIv04wGJpSo.bGi5eq?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 12",
+        "culture": "Kathakali",
+        "imageCulture":"https://tse1.mm.bing.net/th?id=OIP.k7Zyx8WkeVzNPEkPJq2p-AHaE7&pid=Api&P=0&h=180"
+    },
+    {
+        "name": "Madhya Pradesh",
+        "image": "https://th.bing.com/th/id/OIG2.uJ..jrLAjtr8HAcLbURN?pid=ImgGn",
+        "capital": "Bhopal",
+        "food": "Bhutte Ka Kees",
+        "foodImage":"https://th.bing.com/th/id/OIG1.kgJ6kHIAu4aGn2ARVYL_?pid=ImgGn",
+        "landmark": "Famous Landmark 13",
+        "culture": "Jawara",
+        "imageCulture":"https://i1.wp.com/www.auchitya.com/wp-content/uploads/2021/03/jawara-dance.jpg?resize=1536%2C772&ssl=1"
+    },
+    {
+        "name": "Maharashtra",
+        "image": "https://th.bing.com/th/id/OIG3.4ZkWWEU.hSPsx1a1tMi_?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "capital": "Mumbai",
+        "food": "Misal Pav",
+        "foodImage":"https://th.bing.com/th/id/OIG4.P4BHmv3o9xb0mB4xxGwU?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 14",
+        "culture": "Lavani",
+        "imageCulture":"https://www.gosahin.com/go/p/i/t1/1564228350_lavani-dance-2.jpg"
+    },
+    {
+        "name": "Manipur",
+        "image": "https://th.bing.com/th/id/OIG2.wlrFt8T5E_fvEUnuBUC4?pid=ImgGn",
+        "capital": "Imphal",
+        "food": "Kangshoi",
+        "foodImage":"https://th.bing.com/th/id/OIG4.yrjt7b0rl1Wbw8V46ikg?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 15",
+        "culture": "Dol Cholam",
+        "imageCulture":"https://c8.alamy.com/comp/HDNTY4/manipur-dancers-performing-dhol-cholam-traditional-dance-of-manipur-HDNTY4.jpg"
+    },
+    {
+        "name": "Meghalaya",
+        "image": "https://th.bing.com/th/id/OIG2.LBLry_6YQOwrOIbS3.3A?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "capital": "Shillong",
+        "food": "Jadoh",
+        "foodImage":"https://th.bing.com/th/id/OIG1.ip490QjU.lFe1cUKtjYd?pid=ImgGn",
+        "landmark": "Famous Landmark 16",
+        "culture": "Ka Shad Suk Mynsiem",
+        "imageCulture":"https://tse3.mm.bing.net/th?id=OIP.O0EwuokwHqvyUxBXuGRkMAHaEK&pid=Api&P=0&h=180"
+    },
+    {
+        "name": "Mizoram",
+        "image": "https://th.bing.com/th/id/OIG2.YUojsb6neAFc0cdATGlk?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "capital": "Aizawl",
+        "food": "Misa Mach Poora",
+        "foodImage":"https://th.bing.com/th/id/OIG3.baN5RGWc_RhaWJYgWilq?pid=ImgGn",
+        "landmark": "Famous Landmark 17",
+        "culture": "Cheraw Dance",
+        "imageCulture":"https://i.pinimg.com/originals/46/8b/8e/468b8e963f4b1aeae535334969273122.jpg"
+    },
+    {
+        "name": "Nagaland",
+        "image": "https://th.bing.com/th/id/OIG4.lVAAoDlBSnfXeAEbdt3Z?pid=ImgGn",
+        "capital": "Kohima",
+        "food": "Pork with Bamboo Shoot",
+        "foodImage":"https://th.bing.com/th/id/OIG4.K2SyYdKiUuZH5VNeEE_Y?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 18",
+        "culture": "Rangma",
+        "imageCulture":"https://i.ytimg.com/vi/TslNbHEMjrM/maxresdefault.jpg"
+    },
+    {
+        "name": "Odisha",
+        "image": "https://th.bing.com/th/id/OIG1.Wt7zWhc3GiGaFqFM5wDT?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "capital": "Bhubaneswar",
+        "food": "Chenna Poda",
+        "foodImage":"https://th.bing.com/th/id/OIG1.MGbhC76JIZgW.umVMZZs?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 19",
+        "culture": "Odissi (Classical)",
+        "imageCulture":"https://tse3.mm.bing.net/th?id=OIP._cprkmyAtADU-Y3lPguXhwHaKX&pid=Api&P=0&h=180"
+    },
+    {
+        "name": "Punjab",
+        "image": "https://th.bing.com/th/id/OIG4.CHFoRIZc4nrudU3C1ehh?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "capital": "Chandigarh",
+        "food": "Makki Di Roti and Sarson Da Saag",
+        "foodImage":"https://th.bing.com/th/id/OIG1.k8UAXudzzg4Q3SlOg5QH?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 20",
+        "culture": "Bhangra",
+        "imageCulture":"https://www.caleidoscope.in/wp-content/uploads/2021/07/Bhangra.jpg"
+    },
+    {
+        "name": "Rajasthan",
+        "image": "https://th.bing.com/th/id/OIG1.WzCH_P0DvmCFq3IuWvQn?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "capital": "Jaipur",
+        "food": "Dal Baati Churma",
+        "foodImage":"https://th.bing.com/th/id/OIG2.WF7SyVRWZaRursu0W_8P?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 21",
+        "culture": "Ghumar",
+        "imageCulture":"https://tse3.mm.bing.net/th?id=OIP.jB9SisrEFsyG3Pz6C4TFYAHaE6&pid=Api&P=0&h=180"
+    },
+    {
+        "name": "Sikkim",
+        "image": "https://th.bing.com/th/id/OIG2.3H.UqB9XPNKpIaVh6v01?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "capital": "Gangtok",
+        "food": "Momo",
+        "foodImage":"https://th.bing.com/th/id/OIG2.JmKXqGctfoZ2LmKi6Bj_?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 22",
+        "culture": "Chu Faat Dance",
+        "imageCulture":"https://tse2.mm.bing.net/th?id=OIP.68_Ldv2U21tFdQUSQgA-CgHaEO&pid=Api&P=0&h=180"
+    },
+    {
+        "name": "Tamil Nadu",
+        "image": "https://th.bing.com/th/id/OIG1.YwYm9Q0IlrBEHXSF9rF3?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "capital": "Chennai",
+        "food": "Pongal",
+        "foodImage":"https://th.bing.com/th/id/OIG2.W6HL8Oqq0vOJZ3KF0J13?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 23",
+        "culture": "Bharatanatyam",
+        "imageCulture":"https://tse3.mm.bing.net/th?id=OIP.aNkc_lgFFoOfS3BSiRfsmwHaE8&pid=Api&P=0&h=180"
+    },
+    {
+        "name": "Telangana",
+        "image": "https://th.bing.com/th/id/OIG3.Z64.JkPICcLVjpFKGCKN?pid=ImgGn",
+        "capital": "Hyderabad",
+        "food": "Biryani",
+        "foodImage":"https://th.bing.com/th/id/OIG4.EdHmSEeZ1vcIIjEXuTkD?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 24",
+        "culture": "Lambadi Dance",
+        "imageCulture":"https://images.hindustantimes.com/img/2022/11/04/1600x900/INDIA-POLITICS-LIBERATION-DAY-14_1667561760298_1667561760298_1667561791573_1667561791573.jpg"
+    },
+    {
+        "name": "Tripura",
+        "image": "https://th.bing.com/th/id/OIG2.aZu1LCGUM4VxHoTtC4i9?pid=ImgGn",
+        "capital": "Agartala",
+        "food": "Chakhwi",
+        "foodImage":"https://th.bing.com/th/id/OIG1.SFRERsX2fcD71E60ZFoR?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 25",
+        "culture": "Hojagiri",
+        "imageCulture":"https://i.ytimg.com/vi/EA4DLd8g9xA/maxresdefault.jpg"
+    },
+    {
+        "name": "Uttar Pradesh",
+        "image": "https://th.bing.com/th/id/OIG1.7jCd7EGnhYBU_9Amd6m3?pid=ImgGn",
+        "capital": "Lucknow",
+        "food": "Tunde Ke Kebab",
+        "foodImage":"https://th.bing.com/th/id/OIG3.RnFxUlMx01QYpnhZWRaW?pid=ImgGn",
+        "landmark": "Famous Landmark 26",
+        "culture": "Nautanki",
+        "imageCulture":"https://mapacademy.io/wp-content/uploads/2022/07/nautanki-1m.jpg"
+    },
+    {
+        "name": "Uttarakhand",
+        "image": "https://th.bing.com/th/id/OIG4.AyEaBlk9E1pwJyLWbcfs?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "capital": "Dehradun (Winter),Gairsain (Summer)",
+        "food": "Kafuli/ Kapaa",
+        "foodImage":"https://th.bing.com/th/id/OIG4.oCGtL1xwg5KCSgxObBGC?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 27",
+        "culture": "Garhwali",
+        "imageCulture":"https://tse4.mm.bing.net/th?id=OIP.0c8v_WtYHTp8USc3ZytXHgHaEO&pid=Api&P=0&h=180"
+    },
+    {
+        "name": "West Bengal",
+        "image": "https://th.bing.com/th/id/OIG2._2C0bRyuuNBj2u7.4kF8?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "capital": "Kolkata",
+        "food": "Kosha Mangsho",
+        "foodImage":"https://th.bing.com/th/id/OIG3.cdfNhXMRhSaYS9_lOax0?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "landmark": "Famous Landmark 28",
+        "culture": "Kathi",
+        "imageCulture":"https://i.ytimg.com/vi/AWbHy-6cWec/maxresdefault.jpg"
+    }
+]
