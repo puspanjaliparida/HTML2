@@ -23,9 +23,10 @@ function displayStates(states) {
 
         stateCard.innerHTML = `
             <img src="${state.image}" alt="${state.name}">
-            <h2>${state.name}</h2>
+            <h2><a href="${state.mapUrl}" target="_blank">${state.name}</a></h2>
             <p><strong>Capital:</strong> ${state.capital}</p>
             <p><strong>Traditional Food:</strong> ${state.food}</p>
+            <p><strong>Famous Landmark:</strong> ${state.landmark}</p>
             <button class="details-button" onclick='displayStateDetails(${JSON.stringify(state)})'>More Details</button>
             `;
 
@@ -41,10 +42,11 @@ function displaySingleState(state) {
 
     stateCard.innerHTML = `
         <img src="${state.image}" alt="${state.name}">
-        <h2>${state.name}</h2>
+        <h2><a href="${state.mapUrl}" target="_blank">${state.name}</a></h2>
         <p><strong>Capital:</strong> ${state.capital}</p>
         <p><strong>Traditional Food:</strong> ${state.food}</p>
-        <button class="details-button" onclick='displayStateDetails(${JSON.stringify(state)})'>More Details</button>
+        <p><strong>Famous Landmark:</strong> ${state.landmark}</p>
+        <button class="details-button" onclick='location.href="state.html?state=${encodeURIComponent(state.name)}"'>More Details</button>
     `;
 
     statesContainer.appendChild(stateCard);
@@ -58,12 +60,14 @@ function displayStateDetails(state) {
     stateCard.className = 'state-card';
 
     stateCard.innerHTML = `
-        <h2>${state.name}</h2>
+        <h2><a href="${state.mapUrl}" target="_blank">${state.name}</a></h2>
         <img src="${state.image}" alt="${state.name}">
-        <p><strong>Food:-</strong><h2>${state.food}</h2></p>
+        <p><strong>Traditional Food:-</strong><h2>${state.food}</h2></p>
         <img src="${state.foodImage}" alt="${state.food}" class="food-image">
         <p><strong>Traditional Dance:-<h2>${state.culture}</h2></strong></p>
         <img src="${state.imageCulture}" alt="${state.culture}"  class="culture-image">
+        <p><strong>Famous Landmark:-</strong><h2>${state.landmark}</h2></p>
+        <img src="${state.imageLandmark}" alt="${state.landmark}"  class="landmark-image">
         <button class="back-button" onclick='fetchAndDisplayStates()'>Back</button>
     `;
 
