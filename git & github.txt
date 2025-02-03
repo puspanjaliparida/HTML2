@@ -19,5 +19,5 @@ git push -u origin master/main
                            //12.04.24//
 Github: Github is an online platform (website) used to deploy,share and maintain the code.
 
-Main folder should have index.jhtml
+Main folder should have index.html
 Goto repository=> settings=>pages(left side)=>select branch(right side)=>click save and wait for some time.
