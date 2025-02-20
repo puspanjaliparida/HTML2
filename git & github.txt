@@ -1,23 +1,29 @@
                                    //06.04.24//
 Open terminal
 Then new terminal
-git init
-git add .
-git commit -m "update"
+(i)git init
+(ii)git add .
+(iii)git commit -m "update"
 for 1st time:
    git config --global user.email "ur email"
    git config --global user.name "ur username"
-Do again git commit -m "update"
+(iv)git commit -m "any message"
 
 Goto Github.com create an account and repository.
 Login in vscode local using github,
 when u do push it will open one login prompt,login there and give i agree authorization.
 
 git remote add origin "https://link"
-git push -u origin master/main
+(v)git push -u origin master/main
 
                            //12.04.24//
 Github: Github is an online platform (website) used to deploy,share and maintain the code.
-
-Main folder should have index.html
-Goto repository=> settings=>pages(left side)=>select branch(right side)=>click save and wait for some time.
+----------------------------------------------------------------------------------
+To make your github site as Live.
+(i)Your VS CODE Main folder should have index.html
+(ii)Goto your corresponding Repository=>(https://github.com/puspanjaliparida/HTML2) 
+(iii)settings=>pages(left side)=>select branch(main)(right side)=>
+(iv)Set Custom domain as https://puspanjaliparida.github.io/HTML2/
+(v)click save 
+(vi)Refresh it and wait for some time.
+(vii)You can see your live site as https://puspanjaliparida.github.io/HTML2/
