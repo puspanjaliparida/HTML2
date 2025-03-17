@@ -235,7 +235,7 @@ Example:
 3. Description Lists (<dl>):
 ----------------------------
 Description lists are used to define terms and their corresponding descriptions.
-They consist of term (<dt>) and description (<dd>) pairs.
+They consists of term (<dt>) and description (<dd>) pairs.
 Example:
 <dl>
 <dt>Term 1</dt><dd>Description of Term 1</dd>
@@ -244,14 +244,16 @@ Example:
 </dl>
 
 Tables in HTML:
------------------------------------------------------------------------------------------
-HTML tables are used to display data in rows and columns. They are useful for presenting structured information.
+------------------------------------------------------------------------------------
+HTML tables are used to display data in rows and columns. They are useful for 
+presenting structured information.
 
 Basic Table Structure:
------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 A table is created using the <table> element.
 Rows within the table are defined using <tr> elements.
-Cells within rows are defined using <td> elements for regular data cells and <th> elements for header cells.
+Cells within rows are defined using <td> elements for regular data cells and <th> 
+elements for header cells.
 Example:
 <table>
 <tr>
@@ -269,8 +271,9 @@ Example:
 </table>
 
 Attributes:
--------------------------------------------------------------------------------------------
-The "colspan" attribute is used to specify how many columns a cell should span horizontally.
+-------------------------------------------------------------------------------------
+The "colspan" attribute is used to specify how many columns a cell should span 
+horizontally.
 The "rowspan" attribute is used to specify how many rows a cell should span vertically.
 Example:
 <table>
@@ -286,12 +289,14 @@ Example:
 </table>
 
 Block vs. Inline Elements:
-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
 Block Elements:
 ----------------
-Block-level elements are used to create structural divisions or blocks in the content of a web page.
+Block-level elements are used to create structural divisions or blocks in the content
+of a web page.
 They typically start on a new line and extend the full width of their parent container.
-Common block-level elements include <div>, <p>, <h1> to <h6>, <ul>, <ol>, <li>, <table>, <form>, and more.
+Common block-level elements include <div>,<p>, <h1> to <h6>, <ul>, <ol>, <li>, <table>,
+<form>, and more.
 Example:
 <div>This is a block-level element.</div>
 <p>This is another block-level element.</p>
@@ -299,7 +304,8 @@ Example:
 
 Inline Elements:
 ----------------
-Inline elements are used to style or wrap specific portions of text within a block-level element.
+Inline elements are used to style or wrap specific portions of text within a 
+block-level element.
 They do not start on a new line and only occupy the space needed for their content.
 Common inline elements include <span>, <a>, <strong>, <em>, <abbr>, <img>, and more.
 Example:
@@ -307,17 +313,20 @@ Example:
 <span>This is an inline element.</span>
 
 Class and ID Attributes:
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
 Class Attribute:
 ----------------
 The class attribute is used to assign one or more class names to an HTML element.
-Classes are typically used to apply CSS styles to one or more elements with the same class.
+Classes are typically used to apply CSS styles to one or more elements with the same
+class.
 Multiple elements can share the same class.
 Example:
 <p class="highlight">This is a highlighted paragraph.</p>
 <p class="highlight">Another highlighted paragraph.</p>ID Attribute:
-The id attribute is used to assign a unique identifier to an HTML element within a document.
-IDs must be unique within the entire HTML document, meaning no two elements should share the same ID.
+The id attribute is used to assign a unique identifier to an HTML element within a 
+document.
+IDs must be unique within the entire HTML document, meaning no two elements should 
+share the same ID.
 IDs are often used for specific JavaScript interactions or unique CSS styling.
 Example:
 <div id="header">This is the header section.</div>
@@ -325,18 +334,19 @@ Example:
 
 Combining Classes and IDs:
 --------------------------
-It is common to combine classes and IDs to target specific elements with CSS or JavaScript.
+It is common to combine classes and IDs to target specific elements with CSS or 
+JavaScript.
 An element can have both a class and an ID.
 Example:
 <div id="header" class="highlight">This is a highlighted header.</div>
 
 HTML Forms:
-------------------------------------------------------------------------------------------
-HTML forms are used to collect user input and send it to a server for processing. They consist of various form
-elements for text input, selection, and interaction.
+-------------------------------------------------------------------------------------
+HTML forms are used to collect user input and send it to a server for processing.They
+consist of various form elements for text input, selection, and interaction.
 
 <form> Element:
----------------
+----------------
 The <form> element is used to create a form on a web page.
 It acts as a container for form elements.
 The "action" attribute specifies the URL to which the form data should be sent.
@@ -345,19 +355,26 @@ Example:
 <form action="/submit" method="POST">
 <!-- Form elements go here -->
 </form>
+
 Text Input Fields (<input type="text">):
+-----------------------------------------
 Text input fields are used for single-line text input.
 The "type" attribute is set to "text."
 The "name" attribute specifies the name of the input field.
 Example:
 <label for="username">Username:</label>
 <input type="text" id="username" name="username">
+
 Password Input Fields (<input type="password">):
+------------------------------------------------
 Password input fields are used for entering sensitive information, like passwords.
-The "type" attribute is set to "password."Example:
+The "type" attribute is set to "password."
+Example:
 <label for="password">Password:</label>
 <input type="password" id="password" name="password">
+
 Radio Buttons (<input type="radio">):
+-------------------------------------
 Radio buttons allow users to select a single option from a list.
 Each radio button has a unique "name" attribute, but they share the same "name" to form a group.
 The "value" attribute specifies the value sent when the radio button is selected.

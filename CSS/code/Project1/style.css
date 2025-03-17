@@ -42,6 +42,10 @@ body {
   background-image: url(images/8.avif);
   min-height: 100%;
 }
+.pimg10 {
+  background-image: url(images/image7.jpg);
+  min-height: 100%;
+}
 .pimg1,
 .pimg7 {
   position: relative;
@@ -65,7 +69,8 @@ body {
 .pimg4,
 .pimg5,
 .pimg6,
-.pimg8 {
+.pimg8,
+.pimg10 {
   position: relative;
   background-position: center;
   background-size: cover;
@@ -82,8 +87,6 @@ body {
   text-align: center;
   color: black;
   font-size: 30px;
-  letter-spacing: 8px;
-  text-transform: uppercase;
 }
 .textBg {
   background: #000708;
